@@ -1,4 +1,4 @@
-# Biscuit Dunking - Physics-Informed Machine Learning for Pore Characterisation
+# Biscuit Dunking - Physics Informed Machine Learning for Pore Characterisation
 
 > **Identifying biscuit varieties and predicting capillary rise from dunk mechanics using the Washburn equation, Bayesian inference, and supervised classification.**
 
