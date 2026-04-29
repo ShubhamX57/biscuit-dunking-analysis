@@ -1,6 +1,5 @@
 # Biscuit Dunking - Physics Informed Machine Learning for Pore Characterisation
 
-> **Identifying biscuit varieties and predicting capillary rise from dunk mechanics using the Washburn equation, Bayesian inference, and supervised classification.**
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat&logo=jupyter&logoColor=white)](https://jupyter.org/)
