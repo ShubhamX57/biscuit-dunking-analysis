@@ -57,7 +57,17 @@ ML here fills in the missing physics input, not replace the physics.
 │   ├── tr-1.csv / tr-2.csv / tr-3.csv   # blind time-resolved files
 ├── Analysis_notebook.ipynb    # full analysis
 ```
-
+---
+## Dependencies 
+```
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+jupyter
+```
 ---
 
 ## Run it
