@@ -1,0 +1,83 @@
+# Notation Glossary
+
+## Physics Variables
+
+| Symbol | Full Form |
+|--------|-----------|
+| `L` | Capillary rise distance (metres) |
+| `gamma` / γ | Surface tension (N/m) |
+| `phi` / φ | Contact angle (radians) |
+| `eta` / η | Dynamic viscosity (Pa·s) |
+| `r` | Pore radius (metres) |
+| `t` | Time (seconds) |
+| `dL` / `dl` | Measurement uncertainty in L |
+| `r_eff` | Effective pore radius, inverted from Washburn: r = 2ηL² / (γt cosφ) |
+| `c` | Washburn shorthand: c = γt cosφ / (2η) |
+| `dldr` | Derivative ∂L/∂r, used in delta method uncertainty propagation |
+
+## Statistical Metrics
+
+| Symbol | Full Form |
+|--------|-----------|
+| `R^2` | Coefficient of determination |
+| `RMSE` | Root mean squared error |
+| `MAE` | Mean absolute error |
+| `CV` | Coefficient of variation (std / mean × 100%) |
+| `chi2_red` | Reduced chi-squared (χ²ν), goodness-of-fit per degree of freedom |
+| `rho` | Lag-1 autocorrelation coefficient of residuals |
+| `IQR` | Interquartile range (25th to 75th percentile) |
+
+## Statistical Methods
+
+| Abbreviation | Full Form |
+|--------------|-----------|
+| `EDA` | Exploratory data analysis |
+| `ANOVA` | One-way analysis of variance |
+| `MWU` | Mann-Whitney U test |
+| `KDE` | Kernel density estimate |
+| `GMM` | Gaussian mixture model |
+| `BIC` | Bayesian information criterion |
+| `HDI` | Highest density interval |
+| `MAP` | Maximum a posteriori estimate |
+| `CI` / `ci95` | Confidence interval (95%) |
+| `boot_std` | Bootstrap standard deviation |
+
+## Machine Learning
+
+| Abbreviation | Full Form |
+|--------------|-----------|
+| `rf` | Random forest classifier |
+| `logreg` | Logistic regression classifier |
+| `gb` / `GBR` | Gradient boosting regressor |
+| `clf` | Classifier (generic) |
+| `gs` | GridSearchCV object |
+| `CV` | Cross-validation (5-fold stratified) |
+| `phys_feats` | Physics feature set: [gamma, phi, eta, L, t, r_eff] |
+| `raw_feats` | Raw feature set: [gamma, phi, eta, L, t] |
+| `reg_feats` | Regression feature set: [gamma, phi, eta, t] |
+
+## Datasets
+
+| Variable | Full Form |
+|----------|-----------|
+| `dunk` | Labelled dunking dataset (3000 rows) |
+| `micro` | Microscopy dataset (500 rows, includes measured r) |
+| `tr` / `tr1`, `tr2`, `tr3` | Blind time-resolved files (100 rows each: t, L, dL) |
+
+## Train / Test Split Variables
+
+| Variable | Full Form |
+|----------|-----------|
+| `xtr` / `ytr` | Training features and labels |
+| `xte` / `yte` | Test features and labels |
+| `xtr_h` … `yte_h` | Hybrid pipeline train/test split |
+| `xtr_c` … `yte_c` | Calibration train/test split |
+
+## Library Aliases
+
+| Alias | Full Form |
+|-------|-----------|
+| `np` | NumPy |
+| `pd` | pandas |
+| `plt` | matplotlib.pyplot |
+| `sns` | seaborn |
