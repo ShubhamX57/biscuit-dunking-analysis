@@ -39,10 +39,10 @@ Blind samples: **tr1 = Hobnob** (519 nm), **tr2 = Rich Tea** (280 nm), **tr3 = D
 
 ## How it works
 
-1. **Washburn is nearly exact** when pore radius `r` is known — any failure comes from missing that input, not the physics.
+1. **Washburn is nearly exact** when pore radius `r` is known - any failure comes from missing that input, not the physics.
 2. **Inverting Washburn** gives an effective pore radius per measurement that cleanly separates biscuits: ~300 nm (Rich Tea), ~500 nm (Hobnob), ~800 nm (Digestive).
 3. **A random forest** using that derived feature classifies biscuit type at 96%. Without it: 81%.
-4. **The hybrid** classifies first, then feeds the matching mean radius into Washburn — R² jumps from 0.79 to 0.985 with realistic propagated uncertainties.
+4. **The hybrid** classifies first, then feeds the matching mean radius into Washburn - R² jumps from 0.79 to 0.985 with realistic propagated uncertainties.
 
 ML here fills in the missing physics input, not replace the physics.
 
